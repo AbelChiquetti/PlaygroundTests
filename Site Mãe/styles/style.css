@@ -1,0 +1,105 @@
+body{
+    background-color: darkslategray;
+    color: beige;
+    font-family: Padrao;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: blanchedalmond;
+}
+
+a:hover {
+    color: blue;
+    transition: 0.3s all;
+}
+
+#inscbtn {
+    border: 2px solid cornflowerblue;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+#inscbtn:hover {
+    background-color: black;
+    color: aliceblue;
+    transition: 0.3s
+    
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 50px;
+    font-family: Padrao;
+}
+
+span {
+    color: aqua;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Padrao;
+}
+
+img {
+    width: 450px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form [type="submit"]{
+    height: 50%;
+    width: 50%;
+    background-color: chartreuse;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+form [type="submit"]{
+    cursor: pointer;
+}
+
+input {
+    margin-top: 15px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
